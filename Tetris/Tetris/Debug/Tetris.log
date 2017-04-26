@@ -1,0 +1,65 @@
+﻿生成启动时间为 2016/5/21 19:07:48。
+     1>项目“D:\Tetris双人对战版\Tetris双人对战版\Tetris\Tetris\Tetris.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\Tetris.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Bin.cpp Brick.cpp IBrick.cpp LBrick.cpp LLBrick.cpp OBrick.cpp TBrick.cpp Tetris.cpp ZBrick.cpp ZZBrick.cpp
+         ZZBrick.cpp
+         ZBrick.cpp
+         Tetris.cpp
+     1>d:\tetris双人对战版\tetris双人对战版\tetris\tetris\tetris.cpp(190): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : 参见“kbhit”的声明
+     1>d:\tetris双人对战版\tetris双人对战版\tetris\tetris\tetris.cpp(192): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 参见“getch”的声明
+     1>d:\tetris双人对战版\tetris双人对战版\tetris\tetris\tetris.cpp(377): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 参见“getch”的声明
+     1>d:\tetris双人对战版\tetris双人对战版\tetris\tetris\tetris.cpp(500): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 参见“getch”的声明
+     1>d:\tetris双人对战版\tetris双人对战版\tetris\tetris\tetris.cpp(492): warning C4101: “i”: 未引用的局部变量
+         TBrick.cpp
+         OBrick.cpp
+         LLBrick.cpp
+         LBrick.cpp
+         IBrick.cpp
+         Brick.cpp
+         Bin.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\Tetris.exe.embed.manifest.res" .\Debug\Tetris_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Tetris.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\Tetris.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Tetris双人对战版\Tetris双人对战版\Tetris\Tetris\Debug\Tetris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Tetris.lib" /MACHINE:X86 .\Debug\Tetris.exe.embed.manifest.res
+         .\Debug\Bin.obj
+         .\Debug\Brick.obj
+         .\Debug\IBrick.obj
+         .\Debug\LBrick.obj
+         .\Debug\LLBrick.obj
+         .\Debug\OBrick.obj
+         .\Debug\TBrick.obj
+         .\Debug\Tetris.obj
+         .\Debug\ZBrick.obj
+         .\Debug\ZZBrick.obj
+     1>LINK : warning LNK4076: 增量状态文件“.\Debug\Tetris.ilk”无效(将删除)；正以非增量方式链接
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\Tetris.exe.embed.manifest" /manifest .\Debug\Tetris.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\Tetris.exe.embed.manifest.res" .\Debug\Tetris_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Tetris.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\Tetris.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Tetris双人对战版\Tetris双人对战版\Tetris\Tetris\Debug\Tetris.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Tetris.lib" /MACHINE:X86 .\Debug\Tetris.exe.embed.manifest.res
+         .\Debug\Bin.obj
+         .\Debug\Brick.obj
+         .\Debug\IBrick.obj
+         .\Debug\LBrick.obj
+         .\Debug\LLBrick.obj
+         .\Debug\OBrick.obj
+         .\Debug\TBrick.obj
+         .\Debug\Tetris.obj
+         .\Debug\ZBrick.obj
+         .\Debug\ZZBrick.obj
+         Tetris.vcxproj -> D:\Tetris双人对战版\Tetris双人对战版\Tetris\Tetris\.\Debug\Tetris.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\Tetris.unsuccessfulbuild”。
+         正在对“.\Debug\Tetris.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Tetris双人对战版\Tetris双人对战版\Tetris\Tetris\Tetris.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.29

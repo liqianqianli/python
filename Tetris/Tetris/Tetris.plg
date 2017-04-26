@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tetris - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF2E5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Tetris.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Microsoft Visual Studio\MyProjects\Tetris双人对战版\Tetris双人对战版\Tetris\Tetris\Tetris.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF2E5.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF2E6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Tetris.pdb" /debug /machine:I386 /out:"Debug/Tetris.exe" /pdbtype:sept 
+".\Debug\Bin.obj"
+".\Debug\Brick.obj"
+".\Debug\IBrick.obj"
+".\Debug\LBrick.obj"
+".\Debug\LLBrick.obj"
+".\Debug\OBrick.obj"
+".\Debug\TBrick.obj"
+".\Debug\Tetris.obj"
+".\Debug\ZBrick.obj"
+".\Debug\ZZBrick.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF2E6.tmp"
+<h3>Output Window</h3>
+Compiling...
+Tetris.cpp
+f:\microsoft visual studio\myprojects\tetris双人对战版\tetris双人对战版\tetris\tetris\tetris.cpp(492) : warning C4101: 'i' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+Tetris.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
